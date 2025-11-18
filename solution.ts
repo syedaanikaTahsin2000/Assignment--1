@@ -1,4 +1,3 @@
-// problem 1
 
 let formatValue = (value: string | number | boolean): string | number | boolean => {
     if (typeof value === "number") {
@@ -9,7 +8,7 @@ let formatValue = (value: string | number | boolean): string | number | boolean 
         return !value;
     }
 }
-// problem 2
+
 function getLength(value: string | any[]): number {
     if (typeof value === 'string') {
         return value.length;
@@ -18,7 +17,7 @@ function getLength(value: string | any[]): number {
     }
     return 0;
 }
-// problem 3
+
 class Person{
     name:string;
     age:number;
@@ -32,7 +31,6 @@ this.age=age;
     }
 
 }
-// problem 4
 
 const filterByRating = (
     books: { title: string; rating: number }[]
@@ -46,7 +44,6 @@ const filterByRating = (
 };
 
 
-//  problem 5
 
 const filterActiveUsers = (arr: {
     id: number;
@@ -65,7 +62,6 @@ const filterActiveUsers = (arr: {
 
 
 
-// problem 6
 
 let printBookDetails = (book: {
   title: string;
@@ -74,7 +70,6 @@ let printBookDetails = (book: {
   isAvailable: boolean;
 }): string => {
     return `Title: ${book.title}, Author: ${book.author}, Published: ${book.publishedYear}, Available: ${book.isAvailable ? 'Yes' : 'No'}`}
-// problem 7
 
 const getUniqueValues = (arr1: (number | string)[], arr2: (number | string)[]): (number | string)[] => {
     let unique: (number | string)[] = [];
@@ -109,7 +104,6 @@ const getUniqueValues = (arr1: (number | string)[], arr2: (number | string)[]): 
 };
 
 
-// problem 8
 
 const calculateTotalPrice = (products: {
     name: string;
@@ -141,12 +135,5 @@ const calculateTotalPrice = (products: {
  
 
 
-const books = [
-  { title: 'Book A', rating: 4.5 },
-  { title: 'Book B', rating: 3.2 },
-  { title: 'Book C', rating: 5.0 },
-];
-
-console.log(filterByRating(books));
 
 
