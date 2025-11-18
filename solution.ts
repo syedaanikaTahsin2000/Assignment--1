@@ -130,7 +130,7 @@ const calculateTotalPrice = (products: {
             return sum;
         }
     }, 0);
-};
+}
 
  
 
