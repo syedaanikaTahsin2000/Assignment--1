@@ -32,7 +32,7 @@ type  Person = Name & Age;
 const user: Person = { name: "Rahim", age: 25 };
 ```
 
-এখানে **Person** টাইপে `name` এবং `age` — দুইটাই থাকতে হবে, কারণ এটা **Name & Age** intersection।
+এখানে **Person** টাইপে `name` এবং `age` — দুইটাই থাকতে হবে, কারণ এটা **Name & Age** এর intersection।
 
 
 # ব্লগ ২: TypeScript এ Enum ব্যবহার
@@ -128,7 +128,6 @@ return "you are a student";
 
 whichRole(Role.Admin); // সঠিক
 
-whichRole("addmin"); //  Compile-time error
 ```
 
 ## 2. Numeric Enum 
